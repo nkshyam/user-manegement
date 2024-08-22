@@ -1,0 +1,83 @@
+<%-include('header')-%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-0  ">
+    <div class="container-fluid bg-info height">
+      <a class="navbar-brand fw-bold font-monospace text-white" href="#">WELCOME TO ADMIN HOME</a>
+      <!-- <form class="d-flex" role="search" action="/signout">
+        <button class="btn btn-outline-success text-white" type="submit">Sign Out</button>
+      </form> -->
+      <a href="/signout" style="color: black;text-decoration: none; font-size: medium;">
+        Logout</a>
+    </div>
+</nav>
+<main class="index pt-5" id="admaindiv">
+  <!-- <div class="container search"> -->
+
+  <div class="option d-flex align-items-center justify-content-around ">
+      <form action="/search" method="post" name="name">
+        <div class="input-group">
+          <div class="form-outline d-flex p-3">
+            <input type="search" class="form-control " name="search" placeholder="Search" required>
+                <button id="search-button" type="submit" class="btn btn-primary mx-2">
+                  
+<lord-icon
+    src="https://cdn.lordicon.com/xfftupfv.json"
+    trigger="hover"
+    colors="primary:#fff"
+    style="width:25px;height:25px"
+    >
+</lord-icon>
+                </button>
+          </div>
+          
+        </div>
+      </form>
+      <a href="/add" class="btn-outline-primary  p-2 rounded">
+        <i class="fa-solid fa-plus fa-beat fa-2xl" style="color: #ffffff;"></i>
+</a>
+  </div>
+<!-- </div> -->
+  
+
+  <table class="table table-info container table-bordered my-0 mx-auto">
+      <thead>
+
+          <tr>
+              <th class="table-primary" scope="col">No.</th>
+              <th class="table-primary" scope="col">Name</th>
+              <th class="table-primary" scope="col">Email</th>
+              <th class="table-primary" scope="col">Edit</th>
+              <th class="table-primary" scope="col">Delete</th>
+          </tr>
+      </thead>
+      <tbody>
+          <% useData.forEach((x)=>{ %>
+              <tr>
+                  <td>
+                      <%=++i%>
+                  </td>
+                  <td>
+                      <%=x.name%>
+                  </td>
+                  <td>
+                      <%=x.email%>
+                  </td>
+                  <td>
+                      <a href="/edit/<%-x._id%>" class="text-white">
+                        <i class="fa-solid fa-pen-to-square fa-beat fa-xl" style="color: #000000;"></i>
+                      </a>
+                  </td>
+                  <td>
+                      <a href="/delete/<%-x._id%>" class="text-white"
+                          onclick="return confirm('Do you want to Remove <%-x.username%> ?')">
+                          <i class="fa-solid fa-trash fa-beat fa-xl" style="color: #000000;"></i>
+                        </a>
+                  </td>
+              </tr>
+              <% }) %>
+  </table>
+
+</main>
+
+
+<%-include('footer')-%>

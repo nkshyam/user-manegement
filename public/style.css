@@ -1,0 +1,204 @@
+body{
+    overflow-x: hidden;
+}
+#login{
+    padding-top: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(190, 190, 190);
+    /* background-image: linear-gradient( rgba(255, 255, 255), rgb(255, 11, 117)); */
+    width: 100vw;
+    height: 100vh;
+}
+#admaindiv{
+  
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#squarediv{
+    border-radius: 15px;
+    backdrop-filter: blur(200px);
+    background-color: rgb(42, 42, 42);
+}
+#maindiv{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+#headdiv{
+    margin-top: 30vh;
+}
+#btndiv{
+    width: 100vw;
+}
+#btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 5vh;
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid rgb(255, 255, 255);
+}
+#formone{
+    padding: 0 3em;
+}
+#subbtn{
+    font-weight: bold;
+    border-radius: 15px;
+    background-color:rgb(42, 42, 42);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+#subbtn1{
+    width: 18vw;
+    height: 8vh;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(255, 11, 117);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+#subbtn:hover{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+}
+#subbtn1:hover{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+}
+.logbut{
+    width: 120px;
+    height: 30px;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(255, 11, 117);
+    color: rgb(255, 255, 255);
+}
+.logbut:hover{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+}
+#logbtn{
+    color: white;
+}
+#logbtn:hover{
+    color: rgb(148, 148, 148);
+}
+#signbtn{
+    color: white;
+    font-weight:300;
+}
+#signbtn:hover{
+    color: rgb(145, 145, 145);
+}
+#maindivs{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/164/537/original/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#colone{
+    background-image: url('lap1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#coltwo{
+    background-image: url('lap2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colthree{
+    background-image: url('lap3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colfour{
+    background-image: url('lap4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colfive{
+    background-image: url('lap5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colsix{
+    background-image: url('lap6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colseven{
+    background-image: url('lap7.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#coleight{
+    background-image: url('lap8.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#colnine{
+    background-image: url('lap9.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-style:groove;
+}
+#laptop{
+    font-size: 5vw;
+}
+#lapdiv{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    background-color: black;
+}
+#login1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.mainhead{
+    background-color: black;
+}
+.santhini:hover{
+    transform: scale(1.1);
+}
+#btnso{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+}
+#span1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#span2{
+    font-weight: bold;
+}
